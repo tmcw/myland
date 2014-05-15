@@ -1,0 +1,29 @@
+{
+  "name": "myland",
+  "version": "0.0.0",
+  "description": "scrape and share trafficland.com data",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tmcw/myland.git"
+  },
+  "keywords": [
+    "traffic",
+    "webcam",
+    "data",
+    "scraper"
+  ],
+  "author": "Tom MacWright",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmcw/myland/issues"
+  },
+  "homepage": "https://github.com/tmcw/myland",
+  "dependencies": {
+    "concat-stream": "~1.4.5",
+    "xml2js": "~0.4.2"
+  }
+}
