@@ -5,7 +5,8 @@
 Scraping and displaying [TrafficLand](http://www.trafficland.com/) data.
 
 TrafficLand sets up [public-private partnerships](http://en.wikipedia.org/wiki/Public%E2%80%93private_partnership) with
-local governments to install cameras on your stoplights and so on.
+local governments to use cameras on stoplights for traffic and other sorts
+of tasks.
 
 ## Images
 
