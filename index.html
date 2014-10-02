@@ -7,9 +7,23 @@
 <script src='https://api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.js'></script>
 <link href='https://api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.css' rel='stylesheet' />
 <style>
-  body { background:url(all.gif);background-size:cover; }
+body {
+  margin:0;
+  padding:0;
+}
+#fs {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+}
 </style>
 </head>
 <body>
+<video id='fs' width='100%' controls autoplay>
+  <source src="out.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 </body>
 </html>
