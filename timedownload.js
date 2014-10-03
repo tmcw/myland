@@ -6,8 +6,14 @@ var URL = 'http://ie.trafficland.com/200013/full?system=ddot&pubtoken=defd73dd75
 setInterval(snap, 1000 * 5);
 
 function snap() {
-  http
-    .get(URL, function(resp) {
-      resp.pipe(fs.createWriteStream('./captures/' + Date.now() + '.jpg'));
-    });
+  try {
+    http
+      .get(URL, function(resp) {
+        resp.pipe(fs.createWriteStream('./captures/' + Date.now() + '.jpg'));
+      }).on('error', function(err) {
+        console.error(err);
+      });
+  } catch(e) {
+    console.error('exception', e);
+  }
 }
