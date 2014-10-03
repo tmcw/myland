@@ -14,6 +14,12 @@ See [images on TrafficLand's site](http://trafficland.com/city/WAS/index.html). 
 feeds have API-like URLs but require a key that's probably a timestamp combined
 with some private key.
 
+## Video
+
+After grabbing stills as JPEG, generate videos with ffmpeg:
+
+ffmpeg -i %06d.jpg -c:v libx264 -r 30 -pix_fmt yuv420p out.mp4
+
 ## data
 
 * `data.json` is the raw data processed from data.xml
