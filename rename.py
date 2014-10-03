@@ -7,5 +7,6 @@ import os, glob
 i = 0
 for f in os.listdir('.'):
     if f.endswith('jpg'):
-        os.rename(f, '%06d.jpg' % i)
+        x = i / 10
+        os.rename(f, '%06d.jpg' % x)
         i = i + 1
