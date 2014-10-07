@@ -10,7 +10,7 @@ of tasks.
 
 ## Images
 
-See [images on TrafficLand's site](http://trafficland.com/city/WAS/index.html). The image
+See [images on TrafficLand's site](http://trafficland.com/city/WAS/). The image
 feeds have API-like URLs but require a key that's probably a timestamp combined
 with some private key.
 
