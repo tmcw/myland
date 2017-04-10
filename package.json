@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/tmcw/myland",
   "dependencies": {
-    "concat-stream": "~1.4.5",
+    "concat-stream": "~1.6.0",
     "xml2js": "~0.4.2"
   }
 }
